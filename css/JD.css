@@ -1,0 +1,37 @@
+a,b,body,dd,div,dl,dt,h1,h2,h3,h4,h5,i,iframe,img,li,ol,p,span,table,td,tr,u,ul{margin:0;padding:0}
+body{background-color:#f4f4f4}
+#headad{display:flex;max-width:1897px;margin:auto}
+#graynav{display:grid;grid-template-columns:repeat(21,70px);grid-template-rows:31px;justify-content:center;background-color:#e3e4e5}
+.graybox{font-size:12px;place-self:center}
+.graybox:nth-of-type(1){grid-column:1/6;grid-row:1/2}
+.graybox:nth-of-type(1) i{color:#f10215}
+#search{width:100%;display:grid;grid-template-columns:repeat(4,337.5px);grid-template-rows:repeat(3,43px);justify-content:center;background-color:#fff;border-bottom:#ddd 1px solid}
+#search div:nth-child(1){grid-row:1/4;grid-column:1/2;place-self:center}
+#search div:nth-child(2){grid-row:1/2;grid-column:2/4;align-self:center}
+#search div:nth-child(3){grid-row:2/3;grid-column:2/4;align-self:center;justify-self:flex-start}
+#search div:nth-child(4){grid-row:1/4;grid-column:4/5;place-self:center}
+#search div:nth-child(5){grid-row:3/4;grid-column:2/4;align-self:center;justify-self:center}
+.searchbox span{font-size:13px;margin-right:10px;color:#999}
+.searchbox a{font-size:15px;text-decoration:none;display:inline-block;margin:0 5px;color:#333}
+#baba{display:grid;grid-template-columns:repeat(8,170px);grid-template-rows:repeat(3,144px);grid-gap:10px 10px;justify-content:center;margin-top:5px}
+#sidead-left{grid-row:1/4;grid-column:1/2}
+#nav{grid-row:1/4;grid-column:2/3;background-color:#fff}
+#nav ul{list-style:none;font-size:14px;color:#333}
+#nav ul li{padding-left:10px;line-height:25px}
+#razer{grid-row:1/4;grid-column:3/6}
+.JDlogin{grid-row:1/4;grid-column:7/8;background-color:#fff}
+.JDlogin hr{border:none;background-color:#999;height:1px;width:100px;margin:0 auto}
+.newshead{height:30px;width:170px;margin-left:12px;padding-top:10px}
+.newshead span{font-size:14px}
+.newshead h5 a{font-size:12px;text-decoration:none;color:#999;margin-left:52px}
+.advice{width:170px;height:85px}
+.advice p{font-size:12px;margin-left:12px;line-height:20px;color:#666}
+.advice span{color:#e1251b;background-color:rgba(225,37,27,.08)}
+.service{display:grid;grid-template-columns:repeat(3,56.6px);grid-template-rows:repeat(4,55.25px);padding-top:10px;text-align:center}
+.service p{width:56.59px;height:27.25px;font-size:12px}
+#bot1{color:#61abe2}
+.botyellow{color:#eea044}
+.botgreen{color:#53d8c6}
+.botblue{color:#61abe2}
+.botred{color:#e66362}
+#sidead-right{grid-row:1/4;grid-column:8/9}
